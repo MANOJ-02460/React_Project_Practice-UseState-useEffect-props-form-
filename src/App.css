@@ -1,0 +1,17 @@
+
+.navSection
+{
+    padding: 10px;
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    
+
+}
+.navSection ul li {
+    list-style-type: none;
+    display: inline-flex;
+    margin: 10px;
+    
+    
+}
