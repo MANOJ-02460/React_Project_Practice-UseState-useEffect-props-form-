@@ -18,16 +18,21 @@ import Navbar from './Navbar'
 import StarRating from './StarRating/StarRating'
 import SetTime from './SetTime'
 import Api from './Api'
+import ApiImage from './ApiImage'
+import GetFetch from './getFetch'
+import Post from './Post'
+import PostWithStatus from './PostWithStatus'
+
 
 function App() {
   
   return (
     <>
-      <FirstComp name="Student Details"/>
+      {/* <FirstComp name="Student Details"/>
       <FormInt/>
-      <MainComp/>
+      
       <Login/>
-      <AccordionData />
+      
       <Index/>
       <Navbar/>
       <Routes>
@@ -40,8 +45,17 @@ function App() {
       <SetTime/>
       
       <Api/>
+      <ApiImage/> 
+
+      <GetFetch/> 
+      <Post/>*/}
+      <PostWithStatus/>
+      {/* <MainComp/> */}
+      <AccordionData />
+
     </>
   )
 }
+
 
 export default App

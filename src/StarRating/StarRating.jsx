@@ -10,7 +10,7 @@ const StarRating = ({noOfStar=5}) => {
     function handleClick(getCurrentIndex){
 
         setRating(getCurrentIndex)
-        console.log(getCurrentIndex) 
+        console.log(getCurrentIndex)   
 
     }
     
